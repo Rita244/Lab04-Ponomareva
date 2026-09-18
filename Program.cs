@@ -69,13 +69,40 @@
 // default: Console.WriteLine("Неверная оценка"); break;
 // }
 
-Console.Write("Введите ваш возраст: ");
-int age = int.Parse(Console.ReadLine());
-if (age >= 18)
-{
-Console.WriteLine("Доступ разрешён");
-}
+// Console.Write("Введите ваш возраст: ");
+// int age = int.Parse(Console.ReadLine());
+// if (age >= 18)
+// {
+// Console.WriteLine("Доступ разрешён");
+// }
+// else
+// {
+// Console.WriteLine("Доступ запрещён");
+// }
+
+// int day = 3;
+// string dayName;
+
+// switch (day) {
+//     case 1:
+//         dayName = "Понедельник";
+//         break;
+//     case 2:
+//         dayName = "Вторник";
+//         break;
+//     default:
+//         dayName = "Другой день";
+//         break;
+// }
+
+// Console.WriteLine(dayName);
+
+int number = 7;
+string result;
+
+if (number % 2 == 0)
+    result = "чётное";
 else
-{
-Console.WriteLine("Доступ запрещён");
-}
+    result = "нечётное";
+
+Console.WriteLine(result);
